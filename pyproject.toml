@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memocup"
+version = "0.1.0"
+description = "A local-first, model-agnostic persistent memory layer for AI applications."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Memo Cup Contributors" }]
+keywords = ["ai", "memory", "mcp", "llm", "sqlite", "agent-memory"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.scripts]
+memocup = "memocup.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ifekri/MemoCup"
+Repository = "https://github.com/ifekri/MemoCup"
+Issues = "https://github.com/ifekri/MemoCup/issues"
+
+[tool.setuptools]
+packages = ["memocup"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+memocup = ["py.typed"]

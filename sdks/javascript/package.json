@@ -1,0 +1,15 @@
+{
+  "name": "@memocup/client",
+  "version": "0.1.0",
+  "description": "Dependency-free JavaScript client for the Memo Cup local memory API",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "types": "./index.d.ts"
+}

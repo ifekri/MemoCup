@@ -5,7 +5,6 @@
 **A local-first, model-agnostic persistent memory layer for AI applications.**
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=plastic&logo=python&logoColor=white)
-![Dependencies](https://img.shields.io/badge/Runtime%20Dependencies-None-2EA44F?style=plastic)
 ![Storage](https://img.shields.io/badge/Storage-SQLite%20FTS5-003B57?style=plastic&logo=sqlite&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-2025--11--25-6E40C9?style=plastic)
 ![Architecture](https://img.shields.io/badge/Architecture-Local--First-F97316?style=plastic)
